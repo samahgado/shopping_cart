@@ -1,11 +1,19 @@
 
 
+import Header from './component/Header/Header';
+
+
+
 function App() {
   return (
-    <div >
-      <p>
-      <h1>hello from react</h1>
-      </p>
+    <div className="layout">
+     <Header/>
+      <main>
+        content
+      </main>
+      <footer>
+        footer
+      </footer>
     </div>
   );
 }
