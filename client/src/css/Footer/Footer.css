@@ -1,7 +1,7 @@
-header {
-  grid-area: header;
+footer {
+  grid-area: footer;
   background-color: cadetblue;
-  color: antiquewhite;
+  color: burlywood;
   display: flex;
   align-items: center;
   justify-content: center;
