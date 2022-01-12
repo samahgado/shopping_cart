@@ -1,0 +1,34 @@
+[
+    {
+      "id":"id1",
+      "title":  "watch1",
+      "imageUrl":"../public/images/8f3f0c280ce325d8756d88d2d5792e0a95dce3c7_original.jpeg",
+    "desc":"this is product 1",
+    "price": 250,
+    "sizes":["S","M","L"],
+    },
+    {
+        "id":"id2",
+        "title":  "watch2",
+        "imageUrl":"../public/images/product-image-1632014931_1024x1024@2x.jpg",
+      "desc":"this is product 2",
+      "price": 600,
+      "sizes":["S","M","L"]
+      },
+      {
+        "id":"id3",
+        "title":  "watch3",
+        "imageUrl":"../public/images/Women-Watches-REBIRTH-Rhinestone-Luxury-Lady-Wristwatches-Leather-Fashion-Causal-Dress-Watch-Women-Quartz-Watch-Bracelet__92757.1527586949.jpg",
+      "desc":"this is product 3",
+      "price": 1000,
+      "sizes":["S","M"]
+      },
+      {
+        "id":"id4",
+        "title":  "watch4",
+        "imageUrl":"../public/images/8f3f0c280ce325d8756d88d2d5792e0a95dce3c7_original.jpeg",
+      "desc":"this is product 4",
+      "price": 450,
+      "sizes":["S","M"]
+      }
+]
