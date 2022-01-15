@@ -1,0 +1,29 @@
+.products-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.products-wrapper .product-item {
+  width: 20%;
+}
+.products-wrapper .product-item img {
+  width: 100%;
+  height: 150px;
+  padding: 2px;
+  border: 1px solid #c0c0c0;
+}
+.products-wrapper .product-item button {
+  display: block;
+  border: 0;
+  width: 100%;
+  padding: 7px;
+  color: antiquewhite;
+  background-color: cadetblue;
+}
+
+.product-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
