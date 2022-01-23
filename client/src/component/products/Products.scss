@@ -30,3 +30,24 @@
     align-items: center;
     margin: 15px 0;
 }
+.product-info{
+    img{
+    display: block;
+    width: 40%;
+    height: 60%;
+    margin: 20px auto;
+    }
+    p{
+    color:cadetblue;
+    text-align: center;
+    margin: 20px 0;
+    
+    }
+}
+.close-icon{
+    cursor:pointer;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    position: absolute;
+}
