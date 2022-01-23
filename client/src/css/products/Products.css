@@ -19,11 +19,32 @@
   padding: 7px;
   color: antiquewhite;
   background-color: cadetblue;
+  border-radius: 6px;
 }
 
 .product-desc {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
+  margin: 15px 0;
+}
+
+.product-info img {
+  display: block;
+  width: 40%;
+  height: 60%;
+  margin: 20px auto;
+}
+.product-info p {
+  color: cadetblue;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.close-icon {
+  cursor: pointer;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  position: absolute;
 }
