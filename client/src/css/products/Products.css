@@ -1,7 +1,6 @@
 .products-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 30px;
 }
 .products-wrapper .product-item {
   width: 20%;

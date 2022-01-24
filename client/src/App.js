@@ -5,6 +5,7 @@ import Header from './component/Header/Header';
 import Footer from './component/Footer/Footer';
 import data from "./data.json"
 import Products from './component/products/Products';
+import Filter from './component/Filter/Filter';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <main>
         <div className='wrapper'>
           <Products products={products}/>
-          <div className='filter-wrapper'>filter</div>
+          <Filter/>
+         
         </div>
       </main>
       <Footer/>

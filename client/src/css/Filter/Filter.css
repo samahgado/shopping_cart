@@ -1,0 +1,23 @@
+.filter-wrapper {
+  background-color: white;
+  border: 1px solid cadetblue;
+  display: flex;
+  flex-direction: column;
+}
+.filter-wrapper .filter-title {
+  background-color: cadetblue;
+  color: antiquewhite;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.filter-wrapper > div {
+  margin-bottom: 13px;
+  padding: 5px 20px;
+}
+.filter-wrapper select {
+  height: 40px;
+  width: 100%;
+  display: block;
+  border: 1px solid cadetblue;
+  border-radius: 5px;
+}
