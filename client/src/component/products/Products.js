@@ -1,6 +1,6 @@
 
 import React,{useState} from 'react'
-import "../../css/products/Products.css"
+import "./Products.scss"
 
 import ProductModal from './ProductModal'
 
@@ -27,7 +27,7 @@ import ProductModal from './ProductModal'
                                <span>${product.price}</span>
                                
                            </div>
-                           <button>Add To Cart</button>
+                           <button onClick={()=>props.addToCart(product)}>Add To Cart</button>
                        </div>
 
         

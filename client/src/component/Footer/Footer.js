@@ -1,5 +1,5 @@
 import React from 'react';
-import "../../css/Footer/Footer.css"
+import "./Footer.scss"
 import { words } from './../../words';
 function Footer () {
     return (
