@@ -1,0 +1,42 @@
+.user-form {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #ddd;
+  left: 0;
+}
+.user-form form {
+  width: 60%;
+  margin: auto;
+}
+.user-form form > div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.user-form form input {
+  height: 40px;
+  border: 1px solid #c0c0c0;
+}
+.user-form form button {
+  height: 40px;
+  width: 50%;
+  margin: auto;
+  border: 0;
+  cursor: pointer;
+  padding: 7px;
+  color: antiquewhite;
+  background-color: cadetblue;
+  border-radius: 6px;
+}
+.user-form .close-icon {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  border: 1px solid cadetblue;
+  padding: 2px;
+  border-radius: 6px;
+}

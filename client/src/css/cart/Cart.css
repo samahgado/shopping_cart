@@ -1,0 +1,62 @@
+.cart-wrapper {
+  width: 60%;
+  margin: 20px auto;
+}
+.cart-wrapper .cart-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-wrapper .cart-footer .cart-title {
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+  padding: 7px;
+  color: antiquewhite;
+  background-color: cadetblue;
+  text-align: center;
+  border-radius: 5px;
+}
+.cart-wrapper .cart-footer .total-price {
+  padding: 7px;
+  color: antiquewhite;
+  background-color: cadetblue;
+  text-align: center;
+  border-radius: 5px;
+}
+.cart-wrapper .cart-footer button {
+  background-color: mediumturquoise;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 3px #c0c0c0;
+  padding: 10px;
+}
+.cart-item img {
+  width: 80px;
+  margin-right: 10px;
+}
+.cart-item .item-info {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.cart-item .incDec-btn {
+  margin: auto;
+  width: 60px;
+}
+.cart-item .incDec-btn button {
+  border-radius: 50%;
+}
+.cart-item button {
+  display: inline-block;
+  border: 0;
+  padding: 7px;
+  color: antiquewhite;
+  background-color: cadetblue;
+  border-radius: 6px;
+}
