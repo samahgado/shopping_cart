@@ -12,8 +12,7 @@ import "./CheckForm.scss"
         <span className='close-icon' onClick={()=>setForm(false)}>&times;</span>
         <form onSubmit={submitOrder}>
             <Input type="text" handleChange={handleChange} label="Name" name="name"/>
-            
-                <Input type="email"  name='email' handleChange={handleChange} label="Email" />
+             <Input type="email"  name='email' handleChange={handleChange} label="Email" />
             
             <div>
             <button type='submit'>check out</button>
