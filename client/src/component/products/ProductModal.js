@@ -1,8 +1,12 @@
 import React from 'react'
+
 import Modal from 'react-modal/lib/components/Modal'
+
+
  function ProductModal(props) {
      const {product,closeModal}=props
     return (
+        
         <div>
            <Modal isOpen={product} onRequestClose={closeModal}>
                <span className='close-icon' onClick={closeModal}>&times;</span>
@@ -14,6 +18,8 @@ import Modal from 'react-modal/lib/components/Modal'
 
                </Modal> 
         </div>
+    
+        
     )
 }
 export default ProductModal
