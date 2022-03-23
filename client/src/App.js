@@ -1,12 +1,13 @@
 
 import React, { useState } from 'react';
-
+import { Provider } from 'react-redux';
 import Header from './component/Header/Header';
 import Footer from './component/Footer/Footer';
 import data from "./data.json"
 import Products from './component/products/Products';
 import Filter from './component/Filter/Filter';
 import Cart from './component/cart/Cart';
+import store from './store/store';
 
 
 function App() {
@@ -95,7 +96,10 @@ setProducts(newProducts)
 
   
   return (
+
+    <Provider store={store}>
     <div className="layout">
+      
      <Header/>
       <main>
         <div className='wrapper'>
@@ -113,6 +117,7 @@ setProducts(newProducts)
       </main>
       <Footer/>
     </div>
+    </Provider>
   );
 }
 
